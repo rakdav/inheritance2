@@ -22,7 +22,7 @@ namespace inheritance2
         {
             _birthDay = birthDay;
         }
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine($"Фамилия:{_firstName}\n" +
                 $"Имя:{_lastName}\n" +
