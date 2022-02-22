@@ -26,7 +26,7 @@ namespace inheritance2
         {
             Console.WriteLine($"Фамилия:{_firstName}\n" +
                 $"Имя:{_lastName}\n" +
-                $"Дата рождения:{_birthDay}");
+                $"Дата рождения:{_birthDay}\n");
         }
     }
 }

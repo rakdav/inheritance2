@@ -18,5 +18,11 @@ namespace inheritance2
         {
             this.salary = salary;
         }
+
+        public new void Show()
+        {
+            base.Show();
+            Console.WriteLine($"Зарплата:{salary}");
+        }
     }
 }
